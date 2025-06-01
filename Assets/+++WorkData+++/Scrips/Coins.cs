@@ -19,7 +19,7 @@ public class Coins : MonoBehaviour
     }
     public void CoinCheck()
     {
-        if (coinCounter == 1)
+        if (coinCounter == 5)
         {
         manager.OpenWinPanel();
         }
